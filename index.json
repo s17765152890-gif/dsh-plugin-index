@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Plugins by s17765152890-gif",
+    "zh": "s17765152890-gif 的 DSH 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugins: quota display, reasoning effort, inline model testing, and OpenCode Go catalog sync.",
+    "zh": "DeepSeek Harness 插件：额度显示、思考强度、模型行内测试、OpenCode Go 目录自动同步。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "Interface", "zh": "界面增强" } },
+      "provider": { "title": { "en": "Providers", "zh": "供应商" } }
+    },
+    "labels": {
+      "quota": { "title": { "en": "Quota", "zh": "额度" } },
+      "reasoning": { "title": { "en": "Reasoning", "zh": "思考强度" } },
+      "testing": { "title": { "en": "Testing", "zh": "连通性测试" } },
+      "opencode": { "title": { "en": "OpenCode Go", "zh": "OpenCode Go" } }
+    },
+    "sortKeys": {
+      "added": { "title": { "en": "Added", "zh": "新增时间" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-usage-quota",
+      "title": { "en": "Usage & Reasoning", "zh": "用量与思考强度" },
+      "description": {
+        "en": "Provider-aware quota in the composer dock (OpenCode Go 5h/weekly/monthly windows, official account wallets) plus a Codex-style reasoning-effort control.",
+        "zh": "底栏额度胶囊（OpenCode Go 5 小时/周/月、官方账号余额）与 Codex 风格思考强度控制。"
+      },
+      "author": "s17765152890-gif",
+      "homepage": "https://github.com/s17765152890-gif/dsh-usage-quota",
+      "repository": { "url": "https://github.com/s17765152890-gif/dsh-usage-quota" },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["quota", "usage", "reasoning", "opencode", "deepseek-harness"],
+        "labels": ["quota", "reasoning"],
+        "sortKeys": { "added": 1 }
+      },
+      "versions": [
+        {
+          "version": "1.0.2",
+          "publishTimestamp": 1793000000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/s17765152890-gif/dsh-usage-quota",
+            "commit": "1f65b52abe55b57e32f5e933b6115ad3227d3b2f"
+          },
+          "engines": { "dsh": ">=0.2.0-rc.2" }
+        }
+      ]
+    },
+    {
+      "name": "dsh-model-select-test",
+      "title": { "en": "Model Test & Catalog Refresh", "zh": "模型测试与目录刷新" },
+      "description": {
+        "en": "Inline per-model connectivity test buttons in the composer model menu, plus a one-click OpenCode Go catalog refresh on the group header.",
+        "zh": "模型选择菜单每行的连通性测试按钮，以及 OpenCode Go 分组标题上的一键更新模型按钮。"
+      },
+      "author": "s17765152890-gif",
+      "homepage": "https://github.com/s17765152890-gif/dsh-model-select-test",
+      "repository": { "url": "https://github.com/s17765152890-gif/dsh-model-select-test" },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["model", "test", "latency", "opencode", "deepseek-harness"],
+        "labels": ["testing", "opencode"],
+        "sortKeys": { "added": 2 }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794067200,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/s17765152890-gif/dsh-model-select-test",
+            "commit": "9adebb04ed0cca787fa52a073099b013106074ae"
+          },
+          "engines": { "dsh": ">=0.2.0-rc.2" }
+        }
+      ]
+    },
+    {
+      "name": "dsh-opencode-go-catalog",
+      "title": { "en": "OpenCode Go Catalog Sync", "zh": "OpenCode Go 目录同步" },
+      "description": {
+        "en": "Keeps the single OpenCode Go model route in sync with the provider's public catalog: new models appear, retired ones disappear, no restart needed.",
+        "zh": "让 OpenCode Go 的模型清单跟随官方目录自动更新：新模型自动上架、退役模型自动下架，无需重启。"
+      },
+      "author": "s17765152890-gif",
+      "homepage": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog",
+      "repository": { "url": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog" },
+      "metadata": {
+        "category": "provider",
+        "keywords": ["opencode", "catalog", "models", "sync", "deepseek-harness"],
+        "labels": ["opencode"],
+        "sortKeys": { "added": 3 }
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794067200,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog",
+            "commit": "34cfc0700b44976f6395a3404ea14e9d46f30d6c"
+          },
+          "engines": { "dsh": ">=0.2.0-rc.2" }
+        }
+      ]
+    }
+  ]
+}
