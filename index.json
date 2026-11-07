@@ -31,7 +31,7 @@
         "en": "Provider-aware quota in the composer dock (OpenCode Go 5h/weekly/monthly windows, official account wallets) plus a Codex-style reasoning-effort control.",
         "zh": "底栏额度胶囊（OpenCode Go 5 小时/周/月、官方账号余额）与 Codex 风格思考强度控制。"
       },
-      "author": "s17765152890-gif",
+      "author": "baixiangguo",
       "homepage": "https://github.com/s17765152890-gif/dsh-usage-quota",
       "repository": { "url": "https://github.com/s17765152890-gif/dsh-usage-quota" },
       "metadata": {
@@ -43,12 +43,8 @@
       "versions": [
         {
           "version": "1.0.2",
-          "publishTimestamp": 1793000000,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/s17765152890-gif/dsh-usage-quota",
-            "commit": "1f65b52abe55b57e32f5e933b6115ad3227d3b2f"
-          },
+          "publishTimestamp": 1794067732,
+          "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
       ]
@@ -60,7 +56,7 @@
         "en": "Inline per-model connectivity test buttons in the composer model menu, plus a one-click OpenCode Go catalog refresh on the group header.",
         "zh": "模型选择菜单每行的连通性测试按钮，以及 OpenCode Go 分组标题上的一键更新模型按钮。"
       },
-      "author": "s17765152890-gif",
+      "author": "baixiangguo",
       "homepage": "https://github.com/s17765152890-gif/dsh-model-select-test",
       "repository": { "url": "https://github.com/s17765152890-gif/dsh-model-select-test" },
       "metadata": {
@@ -72,12 +68,8 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794067200,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/s17765152890-gif/dsh-model-select-test",
-            "commit": "9adebb04ed0cca787fa52a073099b013106074ae"
-          },
+          "publishTimestamp": 1794067732,
+          "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
       ]
@@ -89,7 +81,7 @@
         "en": "Keeps the single OpenCode Go model route in sync with the provider's public catalog: new models appear, retired ones disappear, no restart needed.",
         "zh": "让 OpenCode Go 的模型清单跟随官方目录自动更新：新模型自动上架、退役模型自动下架，无需重启。"
       },
-      "author": "s17765152890-gif",
+      "author": "baixiangguo",
       "homepage": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog",
       "repository": { "url": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog" },
       "metadata": {
@@ -101,12 +93,8 @@
       "versions": [
         {
           "version": "0.3.0",
-          "publishTimestamp": 1794067200,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/s17765152890-gif/dsh-opencode-go-catalog",
-            "commit": "34cfc0700b44976f6395a3404ea14e9d46f30d6c"
-          },
+          "publishTimestamp": 1794067732,
+          "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
       ]
