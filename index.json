@@ -17,7 +17,8 @@
       "quota": { "title": { "en": "Quota", "zh": "额度" } },
       "reasoning": { "title": { "en": "Reasoning", "zh": "思考强度" } },
       "testing": { "title": { "en": "Testing", "zh": "连通性测试" } },
-      "opencode": { "title": { "en": "OpenCode Go", "zh": "OpenCode Go" } }
+      "opencode": { "title": { "en": "OpenCode Go", "zh": "OpenCode Go" } },
+      "sidebar": { "title": { "en": "Sidebar", "zh": "侧栏" } }
     },
     "sortKeys": {
       "added": { "title": { "en": "Added", "zh": "新增时间" }, "order": "desc" }
@@ -94,6 +95,31 @@
         {
           "version": "0.3.0",
           "publishTimestamp": 1794067732,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0-rc.2" }
+        }
+      ]
+    },
+    {
+      "name": "dsh-session-cwd-opener",
+      "title": { "en": "Session Folders & Folder Colors", "zh": "会话目录与文件夹配色" },
+      "description": {
+        "en": "Shows each session's working directory in the sidebar (click to open the folder), plus workspace folder colors with aliases, color filtering, and a text-based selection highlight.",
+        "zh": "在侧栏显示每个会话的工作目录（点击打开文件夹），并支持工作区文件夹配色、别名、按颜色筛选，以及以文本表达选中态的高亮。"
+      },
+      "author": "baixiangguo",
+      "homepage": "https://github.com/s17765152890-gif/dsh-session-folders",
+      "repository": { "url": "https://github.com/s17765152890-gif/dsh-session-folders" },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["session", "folder", "workspace", "colors", "deepseek-harness"],
+        "labels": ["sidebar"],
+        "sortKeys": { "added": 4 }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1794069513,
           "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.0-rc.2" }
         }
