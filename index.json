@@ -69,12 +69,8 @@
       "versions": [
         {
           "version": "0.2.1",
-          "publishTimestamp": 1794838980,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/s17765152890-gif/dsh-model-select-test.git",
-            "commit": "d4b78a8e06c6620b50376a22140f2fdcade8aed2"
-          },
+          "publishTimestamp": 1794840620,
+          "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.2-rc.3" }
         }
       ]
